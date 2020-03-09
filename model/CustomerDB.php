@@ -50,4 +50,16 @@ class CustomerDB
         $statement->bindParam(5, $id);
         return $statement->execute();
     }
+
+    public function getOne($id)
+    {
+        $sql = 'SELECT * FROM customer WHERE id = ?';
+        $statement = $this->connection->prepare($sql);
+        $statement->bindParam(1, $id);
+        $statement->execute();
+        $row =  $statement->fetch();
+        $customer = new Customer($row['name'], $row['address'], $row['phone'], $row['country']);
+        $customer->id = $row['id'];
+        return $customer;
+    }
 }
