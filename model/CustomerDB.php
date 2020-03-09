@@ -38,4 +38,16 @@ class CustomerDB
         }
         return $customers;
     }
+
+    public function update($id, $customer)
+    {
+        $sql = 'UPDATE customer SET name = ?, address = ?, phone = ?, country = ? where id = ?';
+        $statement = $this->connection->prepare($sql);
+        $statement->bindParam(1, $customer->name);
+        $statement->bindParam(2, $customer->address);
+        $statement->bindParam(3, $customer->phone);
+        $statement->bindParam(4, $customer->country);
+        $statement->bindParam(5, $id);
+        return $statement->execute();
+    }
 }
