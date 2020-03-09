@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="79cdaa3e-e50e-47eb-9051-667b4c8a8e5e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/view/update.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/CustomerDB.php" beforeDir="false" afterPath="$PROJECT_DIR$/model/CustomerDB.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/CustomerController.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/CustomerController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/list.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/list.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,12 +80,12 @@
             <expand>
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="root:MySQL - @localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="root:@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               </path>
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="root:MySQL - @localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="com.intellij.database.console.session.MessageBusSession@44446f57" type="9fbbdea:ServiceModel$ServiceNode" />
+                <item name="root:@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="com.intellij.database.console.session.MessageBusSession@1402dc99" type="9fbbdea:ServiceModel$ServiceNode" />
               </path>
             </expand>
             <select />
@@ -123,22 +126,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="379" y="157" width="1221" height="817" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583724146673" />
-    <state width="1293" height="282" key="GridCell.Tab.0.bottom" timestamp="1583553005891">
+    <state width="1266" height="251" key="GridCell.Tab.0.bottom" timestamp="1583739256660">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1293" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1583553005891" />
-    <state width="1293" height="282" key="GridCell.Tab.0.center" timestamp="1583553005891">
+    <state width="1266" height="251" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1583739256660" />
+    <state width="1266" height="251" key="GridCell.Tab.0.center" timestamp="1583739256660">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1293" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1583553005891" />
-    <state width="1293" height="282" key="GridCell.Tab.0.left" timestamp="1583553005889">
+    <state width="1266" height="251" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1583739256660" />
+    <state width="1266" height="251" key="GridCell.Tab.0.left" timestamp="1583739256656">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1293" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1583553005889" />
-    <state width="1293" height="282" key="GridCell.Tab.0.right" timestamp="1583553005891">
+    <state width="1266" height="251" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1583739256656" />
+    <state width="1266" height="251" key="GridCell.Tab.0.right" timestamp="1583739256660">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1293" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1583553005891" />
+    <state width="1266" height="251" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1583739256660" />
     <state width="311" height="457" key="HiddenNamespacesPopup" timestamp="1583718739804">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -147,10 +150,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="723" y="251" key="NewPhpClassDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583555475654" />
-    <state x="795" y="443" key="NewPhpFileDialog" timestamp="1583570640280">
+    <state x="795" y="443" key="NewPhpFileDialog" timestamp="1583737944074">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="795" y="443" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583570640280" />
+    <state x="795" y="443" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583737944074" />
     <state x="461" y="162" key="SettingsEditor" timestamp="1583553419189">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

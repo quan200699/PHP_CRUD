@@ -18,7 +18,8 @@ class CustomerController
         $this->customerDB = new CustomerDB($connection->connect());
     }
 
-    public function index(){
+    public function index()
+    {
         $customers = $this->customerDB->getAll();
         include 'view/list.php';
     }
@@ -37,6 +38,20 @@ class CustomerController
             $this->customerDB->create($customer);
             $message = 'Customer created';
             include 'view/add.php';
+        }
+    }
+
+    public function update()
+    {
+        if ($_SERVER['REQUEST_METHOD'] === 'GET') {
+            $id = $_GET['id'];
+            $customer = $this->customerDB->getOne($id);
+            include 'view/update.php';
+        } else {
+            $id = $_POST['id'];
+            $customer = new Customer($_POST['name'], $_POST['address'], $_POST['phone'], $_POST['country']);
+            $this->customerDB->update($id, $customer);
+            header('Location: index.php');
         }
     }
 }

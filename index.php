@@ -32,6 +32,7 @@ use \Controller\CustomerController;
         case 'delete':
             break;
         case 'edit':
+            $controller->update();
             break;
         default:
             $controller->index();
