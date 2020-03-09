@@ -2,11 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="79cdaa3e-e50e-47eb-9051-667b4c8a8e5e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/view/delete.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controller/CustomerController.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/CustomerController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/CustomerDB.php" beforeDir="false" afterPath="$PROJECT_DIR$/model/CustomerDB.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/view/list.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/list.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

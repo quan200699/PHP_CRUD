@@ -18,8 +18,8 @@
         <td><?php echo $customer->address ?>
         <td><?php echo $customer->phone ?>
         <td><?php echo $customer->country ?>
-        <td> <a href="./index.php?page=delete&id=<?php echo $customer->id; ?>" class="btn btn-warning btn-sm">Delete</a></td>
         <td> <a href="./index.php?page=edit&id=<?php echo $customer->id; ?>" class="btn btn-sm">Update</a></td>
+        <td> <a href="./index.php?page=delete&id=<?php echo $customer->id; ?>" class="btn btn-warning btn-sm">Delete</a></td>
             <?php endforeach; ?>
     </tbody>
 </table>
