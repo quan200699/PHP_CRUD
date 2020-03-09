@@ -15,7 +15,7 @@ class CustomerDB
 
     public function create($customer)
     {
-        $sql = "Insert into 'customer' ('name','address','phone','country') VALUES (?, ?, ?, ?)";
+        $sql = "INSERT INTO customer (name, address, phone, country) VALUES (?, ?, ?, ?)";
         $statement = $this->connection->prepare($sql);
         $statement->bindParam(1, $customer->name);
         $statement->bindParam(2, $customer->address);

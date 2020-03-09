@@ -2,18 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="79cdaa3e-e50e-47eb-9051-667b4c8a8e5e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/734e778a-aebf-4251-85da-fe1727c790b7.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/734e778a-aebf-4251-85da-fe1727c790b7.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controller/CustomerController.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/CustomerController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/Customer.php" beforeDir="false" afterPath="$PROJECT_DIR$/model/Customer.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/model/CustomerDB.php" beforeDir="false" afterPath="$PROJECT_DIR$/model/CustomerDB.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/DBConnection.php" beforeDir="false" afterPath="$PROJECT_DIR$/model/DBConnection.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/add.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/add.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/list.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/list.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
