@@ -16,12 +16,16 @@ if(isset($message)){
                     <input type="text" class="form-control" name="name"  placeholder="Nhập tên" required>
                 </div>
                 <div class="form-group">
-                    <label>Email</label>
-                    <input type="email" class="form-control" name="email" placeholder="Nhập mail" required>
-                </div>
-                <div class="form-group">
                     <label>Địa chỉ</label>
                     <input type="text" class="form-control" name="address" placeholder="Nhập địa chỉ" required>
+                </div>
+                <div class="form-group">
+                    <label>Điện thoại</label>
+                    <input type="text" class="form-control" name="phone" placeholder="Nhập điện thoại" required>
+                </div>
+                <div class="form-group">
+                    <label>Quê quán</label>
+                    <input type="text" class="form-control" name="country" placeholder="Nhập quê quán" required>
                 </div>
                 <button type="submit" class="btn btn-primary">Thêm mới</button>
                 <button class="btn btn-secondary" onclick="window.history.go(-1); return false;">Hủy</button>

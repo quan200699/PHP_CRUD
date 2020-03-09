@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="79cdaa3e-e50e-47eb-9051-667b4c8a8e5e" name="Default Changelist" comment="" />
+    <list default="true" id="79cdaa3e-e50e-47eb-9051-667b4c8a8e5e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/734e778a-aebf-4251-85da-fe1727c790b7.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/734e778a-aebf-4251-85da-fe1727c790b7.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/CustomerController.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/CustomerController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/Customer.php" beforeDir="false" afterPath="$PROJECT_DIR$/model/Customer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/CustomerDB.php" beforeDir="false" afterPath="$PROJECT_DIR$/model/CustomerDB.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/DBConnection.php" beforeDir="false" afterPath="$PROJECT_DIR$/model/DBConnection.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/add.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/add.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/list.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/list.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,25 +39,36 @@
     <expand>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="MySQL - @localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="MySQL - @localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="customer_management: schema" type="76f4a085:MysqlImplModel$Schema" />
       </path>
     </expand>
     <select />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1Ymf1zL5sokKoxEYZOZnK6vtPUh" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="DatabaseDriversLRU" value="sqlite&#10;mysql" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
@@ -91,7 +115,9 @@
       <workItem from="1583556115638" duration="496000" />
       <workItem from="1583569874663" duration="207000" />
       <workItem from="1583570324520" duration="550000" />
-      <workItem from="1583651375575" duration="220000" />
+      <workItem from="1583651375575" duration="1613000" />
+      <workItem from="1583717198209" duration="2514000" />
+      <workItem from="1583724119083" duration="1427000" />
     </task>
     <servers />
   </component>
@@ -103,10 +129,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="539" y="0" key="#PHP/0.0.1920.1040@0.0.1920.1040" timestamp="1583555506851" />
-    <state x="379" y="157" width="1221" height="817" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583651590521">
+    <state x="379" y="157" width="1221" height="817" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583724146673">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="379" y="157" width="1221" height="817" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583651590521" />
+    <state x="379" y="157" width="1221" height="817" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583724146673" />
     <state width="1293" height="282" key="GridCell.Tab.0.bottom" timestamp="1583553005891">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -123,10 +149,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1293" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1583553005891" />
-    <state width="311" height="457" key="HiddenNamespacesPopup" timestamp="1583651557093">
+    <state width="311" height="457" key="HiddenNamespacesPopup" timestamp="1583718739804">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="311" height="457" key="HiddenNamespacesPopup/0.0.1920.1040@0.0.1920.1040" timestamp="1583651557093" />
+    <state width="311" height="457" key="HiddenNamespacesPopup/0.0.1920.1040@0.0.1920.1040" timestamp="1583718739804" />
     <state x="723" y="251" key="NewPhpClassDialog" timestamp="1583555475654">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -143,14 +169,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="849" y="410" width="326" height="234" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/0.0.1920.1040@0.0.1920.1040" timestamp="1583552907246" />
-    <state x="676" y="161" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1583553195480">
+    <state x="1024" y="0" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1583724206024">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="676" y="161" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583553195480" />
-    <state x="818" y="266" key="com.intellij.database.view.ui.DbObjectDialog" timestamp="1583553015181">
+    <state x="1024" y="0" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583724206024" />
+    <state x="818" y="266" key="com.intellij.database.view.ui.DbObjectDialog" timestamp="1583724156711">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="818" y="266" key="com.intellij.database.view.ui.DbObjectDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583553015181" />
+    <state x="818" y="266" key="com.intellij.database.view.ui.DbObjectDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583724156711" />
     <state x="661" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1583552503726">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

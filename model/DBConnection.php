@@ -10,11 +10,11 @@ class DBConnection
     public $user;
     public $password;
 
-    public function _construct($dsn, $user, $password)
+    public function __construct($dsn, $user, $password)
     {
         $this->dsn = $dsn;
-        $this->user = $user;
         $this->password = $password;
+        $this->user = $user;
     }
 
     public function connect()

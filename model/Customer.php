@@ -10,7 +10,7 @@ class Customer
     public $phone;
     public $country;
 
-    public function _construct($name, $address, $phone, $country)
+    public function __construct($name, $address, $phone, $country)
     {
         $this->name = $name;
         $this->address = $address;

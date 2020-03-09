@@ -5,8 +5,9 @@
     <tr>
         <th>STT</th>
         <th>Name</th>
-        <th>Email</th>
-        <th>Adress</th>
+        <th>Address</th>
+        <th>Phone</th>
+        <th>Country</th>
     </tr>
     </thead>
     <tbody>
@@ -14,8 +15,9 @@
     <tr>
         <td><?php echo ++$key ?></td>
         <td><?php echo $customer->name ?></td>
-        <td><?php echo $customer->email ?></td>
         <td><?php echo $customer->address ?>
+        <td><?php echo $customer->phone ?>
+        <td><?php echo $customer->country ?>
             <?php endforeach; ?>
     </tbody>
 </table>

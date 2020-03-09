@@ -8,7 +8,7 @@ class CustomerDB
 {
     public $connection;
 
-    public function _construct($connection)
+    public function __construct($connection)
     {
         $this->connection = $connection;
     }

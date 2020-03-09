@@ -12,7 +12,7 @@ class CustomerController
 {
     public $customerDB;
 
-    public function _construct()
+    public function __construct()
     {
         $connection = new DBConnection("mysql:host=localhost;dbname=customer_management", "root", "123456");
         $this->customerDB = new CustomerDB($connection->connect());
