@@ -30,6 +30,7 @@ use \Controller\CustomerController;
             $controller->add();
             break;
         case 'delete':
+            $controller->delete();
             break;
         case 'edit':
             $controller->update();

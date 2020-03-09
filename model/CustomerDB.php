@@ -57,9 +57,17 @@ class CustomerDB
         $statement = $this->connection->prepare($sql);
         $statement->bindParam(1, $id);
         $statement->execute();
-        $row =  $statement->fetch();
+        $row = $statement->fetch();
         $customer = new Customer($row['name'], $row['address'], $row['phone'], $row['country']);
         $customer->id = $row['id'];
         return $customer;
+    }
+
+    public function delete($id)
+    {
+        $sql = 'DELETE FROM customer WHERE id = ?';
+        $statement = $this->connection->prepare($sql);
+        $statement->bindParam(1, $id);
+        return $statement->execute();
     }
 }

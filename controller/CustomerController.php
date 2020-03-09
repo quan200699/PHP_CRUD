@@ -54,4 +54,17 @@ class CustomerController
             header('Location: index.php');
         }
     }
+
+    public function delete()
+    {
+        if ($_SERVER['REQUEST_METHOD'] === 'GET') {
+            $id = $_GET['id'];
+            $customer = $this->customerDB->getOne($id);
+            include 'view/delete.php';
+        } else {
+            $id = $_POST['id'];
+            $this->customerDB->delete($id);
+            header('Location: index.php');
+        }
+    }
 }
